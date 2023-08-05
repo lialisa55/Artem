@@ -1,0 +1,37 @@
+ /*
+Theme Name: Geum
+Author: Bijay Yadav
+Author URI: https://www.bijayyadav.com.np/
+Description: A WordPress Full Site Editing theme named Geum is designed to take full advantage of WordPress's Full Site Editing capabilities, providing users with extensive control over the entire website layout, design, and content. It enables users to customize and edit every aspect of their website, including headers, footers, sidebars, templates, and individual page elements, without the need for coding or advanced technical skills. The theme empowers users to create unique and visually stunning websites by offering a wide range of customizable blocks, templates, and styling options. With Geum, users can craft a personalized website that reflects their brand while ensuring a seamless and intuitive editing experience.
+Tags: block-patterns, block-styles, blog, custom-background, custom-colors, custom-logo, custom-menu, editor-style, full-site-editing, grid-layout, one-column, photography, portfolio, template-editing, threaded-comments, translation-ready, wide-blocks
+Requires at least: 6.0
+Tested up to: 6.2
+Requires PHP: 7.4
+Version: 1.0.2
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: geum
+
+*/
+
+ .wp-block-query ul li.wp-block-post+li.wp-block-post {
+     margin-top: 80px;
+ }
+
+ .wp-block-post-excerpt__more-link {
+     padding: 10px 20px;
+     font-size: 16px;
+     color: #fff;
+     background: #000;
+     text-decoration: none;
+     border-radius: 3px;
+ }
+
+ .wp-block-post-excerpt__more-link:hover {
+     color: #fff;
+     background: var(--wp--preset--color--orange);
+ }
+
+ .wp-block-group.shadow-light {
+     box-shadow: 0 0 50px rgb(0 0 0 / 10%);
+ }
